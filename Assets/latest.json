@@ -1,0 +1,222 @@
+[
+    {
+        "id": "LAT-001",
+        "title": "BREAKING: Major Earthquake Strikes Himalayan Region, Rescue Operations Underway",
+        "description": "A powerful earthquake measuring 7.2 on the Richter scale has struck the Himalayan region, affecting parts of Uttarakhand, Himachal Pradesh, and Nepal. The epicenter was located 50 km north of Pithoragarh at a depth of 10 km, causing widespread damage in remote mountainous areas. Initial reports indicate 500 casualties with 2,000 injured, though numbers are expected to rise as communication is restored to affected villages. The National Disaster Response Force has mobilized 5,000 personnel with 20 teams already airlifted to affected regions. Army and Air Force helicopters are conducting rescue operations in inaccessible areas, evacuating 1,000 people so far. Major infrastructure damage includes collapsed buildings in Dharchula and Tanakpur, landslides blocking 50 roads, and disruption of power and communication networks. The Prime Minister has chaired an emergency meeting, announcing ₹1,000 crore immediate relief and deployment of mobile hospitals. International assistance has been offered with China, USA, and Japan providing satellite imagery and technical support. Seismologists warn of aftershocks continuing for several days. This is the strongest earthquake in the region since the 2015 Nepal earthquake, with tremors felt as far as Delhi and Lucknow.",
+        "pubdate": "2024-04-01T05:30:00Z",
+        "category": "latest",
+        "country": "India",
+        "keywords": [
+            "earthquake",
+            "Himalayan region",
+            "disaster",
+            "rescue operations",
+            "NDRF"
+        ],
+        "language": "en",
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/2015_Nepal_earthquake_aftermath_in_Bhaktapur_05.jpg/800px-2015_Nepal_earthquake_aftermath_in_Bhaktapur_05.jpg",
+            "https://images.unsplash.com/photo-1502980426475-b83966705988",
+            "https://images.unsplash.com/photo-1502980426475-b83966705988",
+            "https://images.unsplash.com/photo-1502980426475-b83966705988"
+        ]
+    },
+    {
+        "id": "LAT-002",
+        "title": "LIVE: Election Commission Declares Results for Five State Assembly Elections",
+        "description": "The Election Commission of India is announcing results for five state assembly elections with counting underway across 690 constituencies. Early trends show BJP leading in Madhya Pradesh and Chhattisgarh, Congress ahead in Rajasthan, close contest in Telangana, and hung assembly indicated in Mizoram. Voter turnout averaged 75% across all states with women participation reaching record 78%. Key issues included inflation, employment, and infrastructure development. The results will have significant implications for national politics ahead of the 2024 Lok Sabha elections. Security has been heightened with 1 lakh paramilitary personnel deployed to prevent violence. International observers from 20 countries are monitoring the counting process. Stock markets are reacting to early trends with Sensex gaining 500 points on political stability expectations. The Election Commission's digital initiatives including real-time results on app and website are handling 10 crore simultaneous users. Exit polls had predicted tight contests with margins of 2-3% in many constituencies. Final results expected by evening will determine control of states representing 20% of India's population.",
+        "pubdate": "2024-04-01T10:00:00Z",
+        "category": "latest",
+        "country": "India",
+        "keywords": [
+            "election results",
+            "state elections",
+            "Election Commission",
+            "voting",
+            "political results"
+        ],
+        "language": "hi",
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Election_Commission_of_India_Logo.svg/800px-Election_Commission_of_India_Logo.svg.png",
+            "https://images.unsplash.com/photo-1540910419892-4a36d2c3266c",
+            "https://images.unsplash.com/photo-1540910419892-4a36d2c3266c",
+            "https://images.unsplash.com/photo-1540910419892-4a36d2c3266c"
+        ]
+    },
+    {
+        "id": "LAT-003",
+        "title": "BREAKING: Indian Stock Markets Crash 10% Following Global Economic Crisis",
+        "description": "Indian stock markets have crashed 10% in early trading following a global economic crisis triggered by simultaneous banking failures in USA and Europe. Sensex plunged 7,000 points to 85,000 while Nifty fell 2,000 points to 25,500 in the biggest single-day fall since 2008. The crash was triggered by collapse of two major US banks and emergency measures by European Central Bank causing panic across global markets. Trading was halted twice by circuit breakers as panic selling overwhelmed systems. Banking stocks were worst hit with HDFC Bank down 15%, ICICI Bank 12%, and SBI 10%. Foreign institutional investors sold ₹25,000 crore worth of shares while domestic mutual funds faced redemption pressure. Reserve Bank of India has called an emergency meeting while Finance Ministry assured markets of adequate liquidity measures. Gold prices surged 5% as investors sought safe havens while rupee depreciated to ₹85 against dollar. The crisis has wiped out ₹50 lakh crore of investor wealth with 5 crore retail investors affected. Global coordination is underway with G20 emergency meeting scheduled. Experts advise caution as volatility expected to continue with potential further declines.",
+        "pubdate": "2024-04-01T09:15:00Z",
+        "category": "latest",
+        "country": "India",
+        "keywords": [
+            "stock market crash",
+            "economic crisis",
+            "Sensex",
+            "market volatility",
+            "banking crisis"
+        ],
+        "language": "en",
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bombay_Stock_Exchange.jpg/800px-Bombay_Stock_Exchange.jpg",
+            "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3",
+            "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3",
+            "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3"
+        ]
+    },
+    {
+        "id": "LAT-004",
+        "title": "EMERGENCY: Major Cyber Attack on India's Financial Infrastructure",
+        "description": "A massive cyber attack has disrupted India's financial infrastructure affecting banking systems, UPI payments, and stock exchanges. The attack, suspected to be state-sponsored, has targeted core banking systems of 10 major banks causing transaction failures across the country. UPI transactions are down 80% with ₹10 lakh crore worth of payments affected. Stock exchanges BSE and NSE have suspended trading indefinitely following detection of malicious software in trading systems. CERT-In has declared a national cyber emergency with all critical infrastructure on high alert. Preliminary investigation suggests ransomware attack demanding $1 billion in cryptocurrency. Banks have advised customers to avoid digital transactions while cash withdrawals are limited to ₹10,000 per account. The attack has exposed vulnerabilities despite recent cybersecurity upgrades. International cybersecurity agencies from USA, Israel, and UK are assisting in investigation and containment. Economic impact is estimated at ₹50,000 crore per day of disruption. The government has convened emergency meetings with RBI, SEBI, and technology companies to restore systems. This represents the largest cyber attack on Indian financial systems in history with potential implications for digital economy trust.",
+        "pubdate": "2024-04-01T07:45:00Z",
+        "category": "latest",
+        "country": "India",
+        "keywords": [
+            "cyber attack",
+            "financial infrastructure",
+            "banking systems",
+            "UPI disruption",
+            "cyber emergency"
+        ],
+        "language": "hi",
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Cyber_security.jpg/800px-Cyber_security.jpg",
+            "https://images.unsplash.com/photo-1550751827-4bd374c3f58b",
+            "https://images.unsplash.com/photo-1550751827-4bd374c3f58b",
+            "https://images.unsplash.com/photo-1550751827-4bd374c3f58b"
+        ]
+    },
+    {
+        "id": "LAT-005",
+        "title": "BREAKING: Severe Cyclone 'Tej' Makes Landfall on West Coast, Red Alert Issued",
+        "description": "Extremely severe cyclonic storm 'Tej' has made landfall between Mumbai and Goa with wind speeds of 180 kmph, causing widespread destruction along the west coast. The India Meteorological Department has issued red alert for Maharashtra, Goa, Karnataka, and Gujarat coasts with storm surge of 3 meters expected. Over 10 lakh people have been evacuated from coastal areas to 5,000 relief shelters. Major impacts include complete power outage in Mumbai suburbs, flooding in low-lying areas, and suspension of air, rail, and road transport. The cyclone has already caused 100 fatalities with 500 injured, though numbers are preliminary. Navy and Coast Guard have deployed 50 ships and helicopters for rescue operations. Mumbai airport has canceled all flights while train services including local trains are suspended. Fishing communities have suffered massive losses with 50,000 boats damaged. The cyclone is expected to weaken gradually but will continue to cause heavy rainfall (300-400 mm) over next 48 hours. This is the most severe cyclone to hit the west coast since 1998, with economic loss estimated at ₹50,000 crore. International aid including satellite imagery and technical assistance has been mobilized.",
+        "pubdate": "2024-04-01T04:30:00Z",
+        "category": "latest",
+        "country": "India",
+        "keywords": [
+            "cyclone",
+            "natural disaster",
+            "west coast",
+            "landfall",
+            "rescue operations"
+        ],
+        "language": "en",
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Cyclone_Tej_2023.jpg/800px-Cyclone_Tej_2023.jpg",
+            "https://images.unsplash.com/photo-1502980426475-b83966705988",
+            "https://images.unsplash.com/photo-1502980426475-b83966705988",
+            "https://images.unsplash.com/photo-1502980426475-b83966705988"
+        ]
+    },
+    {
+        "id": "LAT-006",
+        "title": "URGENT: Terror Attack on Parliament Foiled, 5 Militants Neutralized",
+        "description": "A major terror attack on Parliament has been foiled with security forces neutralizing 5 militants attempting to breach security. The attack occurred during Parliament session with 500 MPs inside the building. Quick response by Parliament Security Service and Delhi Police commandos prevented any casualties among lawmakers or staff. The militants, suspected to be from banned terrorist organization, used sophisticated weapons and explosives. Parliament complex has been sealed with extensive search operations underway. Home Minister is chairing emergency security meeting while Prime Minister has been briefed. All entry points to Delhi have been sealed with heightened alert across capital. Intelligence suggests possible sleeper cells activated with more attacks planned. International borders have been put on maximum alert with armed forces deployed in sensitive areas. This is the most serious security breach since 2001 Parliament attack. Political parties have united in condemning the attack and praising security forces. Investigation has been handed to National Investigation Agency with forensic teams collecting evidence. The incident has raised serious questions about Parliament security despite recent upgrades.",
+        "pubdate": "2024-04-01T12:00:00Z",
+        "category": "latest",
+        "country": "India",
+        "keywords": [
+            "terror attack",
+            "Parliament security",
+            "militants neutralized",
+            "national security",
+            "Delhi alert"
+        ],
+        "language": "hi",
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Indian_Parliament.jpg/800px-Indian_Parliament.jpg",
+            "https://images.unsplash.com/photo-1542744095-fcf48d80b0fd",
+            "https://images.unsplash.com/photo-1542744095-fcf48d80b0fd",
+            "https://images.unsplash.com/photo-1542744095-fcf48d80b0fd"
+        ]
+    },
+    {
+        "id": "LAT-007",
+        "title": "BREAKING: Major Industrial Accident in Chemical Plant, 200 Feared Dead",
+        "description": "A catastrophic industrial accident at a chemical plant in Gujarat has resulted in massive explosions and fire, with 200 workers feared dead and 500 injured. The incident occurred at a pesticide manufacturing unit in Ankleshwar during shift change when 1,000 workers were present. Initial reports suggest gas leakage followed by series of explosions causing structural collapse of multiple buildings. The fire has spread to adjacent chemical storage facilities with toxic smoke affecting residential areas within 5 km radius. National Disaster Response Force has deployed 20 teams while Army and Navy have sent specialized chemical disaster response units. Hospitals in Surat, Vadodara, and Ahmedabad are on emergency footing with burn units overwhelmed. The plant was operating despite safety violations noted in recent inspections. Environmental impact includes contamination of local water sources with chemical runoff. The Prime Minister has announced ₹10 lakh compensation for families of deceased and free treatment for injured. This is the worst industrial accident in India since the Bhopal gas tragedy, raising serious questions about industrial safety regulations enforcement.",
+        "pubdate": "2024-04-01T08:45:00Z",
+        "category": "latest",
+        "country": "India",
+        "keywords": [
+            "industrial accident",
+            "chemical plant",
+            "explosion",
+            "Gujarat",
+            "NDRF"
+        ],
+        "language": "en",
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Chemical_plant_at_sunrise.jpg/800px-Chemical_plant_at_sunrise.jpg",
+            "https://images.unsplash.com/photo-1502980426475-b83966705988",
+            "https://images.unsplash.com/photo-1502980426475-b83966705988",
+            "https://images.unsplash.com/photo-1502980426475-b83966705988"
+        ]
+    },
+    {
+        "id": "LAT-008",
+        "title": "LIVE: Supreme Court Delivers Historic Verdict on Electoral Bonds",
+        "description": "The Supreme Court of India is delivering a landmark verdict on the constitutionality of electoral bonds with implications for political funding transparency. The five-judge constitutional bench has been hearing petitions challenging the scheme for four years. Early indications suggest the court may strike down key provisions while upholding others. The verdict will address concerns about anonymous political donations, corporate influence, and transparency in election funding. Political parties have collected ₹20,000 crore through electoral bonds since 2018 with 95% going to ruling party. The case has seen intense arguments about right to privacy versus public's right to know funding sources. Stock markets are watching closely as verdict could impact corporate-political relationships. Election Commission had opposed complete anonymity while government defended scheme as alternative to cash donations. The verdict is expected to reshape political finance landscape ahead of general elections. International observers from democracy watchdogs are monitoring the judgment. Implementation challenges include possible retrospective disclosure requirements and impact on upcoming elections. This represents one of the most significant campaign finance rulings globally with potential to influence similar debates worldwide.",
+        "pubdate": "2024-04-01T11:30:00Z",
+        "category": "latest",
+        "country": "India",
+        "keywords": [
+            "Supreme Court",
+            "electoral bonds",
+            "political funding",
+            "verdict",
+            "transparency"
+        ],
+        "language": "hi",
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Supreme_Court_of_India.jpg/800px-Supreme_Court_of_India.jpg",
+            "https://images.unsplash.com/photo-1589829545856-d10d557cf95f",
+            "https://images.unsplash.com/photo-1589829545856-d10d557cf95f",
+            "https://images.unsplash.com/photo-1589829545856-d10d557cf95f"
+        ]
+    },
+    {
+        "id": "LAT-009",
+        "title": "EMERGENCY: Major Train Derailment in Bihar, 20 Coaches Off Track",
+        "description": "A major train accident has occurred in Bihar with 20 coaches of Rajdhani Express derailing near Buxar station, causing massive casualties and injuries. The train was traveling from Delhi to Howrah with 1,500 passengers when it derailed at high speed. Initial reports indicate 200 fatalities with 500 injured, though numbers are expected to rise as rescue operations continue. The derailment has blocked both up and down lines of the busy Delhi-Howrah route affecting 100 trains. National Disaster Response Force has deployed 10 teams while Army medical corps has set up field hospital. The cause appears to be suspected sabotage with tracks found tampered before accident site. Railway Minister has ordered high-level inquiry and announced ₹10 lakh compensation for families of deceased. Special trains have been arranged to transport injured to hospitals in Patna and Varanasi. This is the worst train accident in India since 2016, raising serious questions about railway safety despite recent modernization investments. Political leaders have suspended campaigning to visit accident site while opposition has demanded resignation of railway minister.",
+        "pubdate": "2024-04-01T06:15:00Z",
+        "category": "latest",
+        "country": "India",
+        "keywords": [
+            "train accident",
+            "derailment",
+            "Bihar",
+            "railway safety",
+            "rescue operations"
+        ],
+        "language": "en",
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Indian_Railways_train.jpg/800px-Indian_Railways_train.jpg",
+            "https://images.unsplash.com/photo-1502980426475-b83966705988",
+            "https://images.unsplash.com/photo-1502980426475-b83966705988",
+            "https://images.unsplash.com/photo-1502980426475-b83966705988"
+        ]
+    },
+    {
+        "id": "LAT-010",
+        "title": "BREAKING: India Successfully Tests Agni-VI Missile with Multiple Warheads",
+        "description": "India has successfully tested its most advanced strategic missile Agni-VI with multiple independently targetable re-entry vehicle (MIRV) capability. The test from Abdul Kalam Island off Odisha coast demonstrated ability to carry 10 nuclear warheads to different targets 8,000 km away. The missile features advanced maneuverability, decoy systems to defeat missile defense, and hypersonic glide vehicle technology. The successful test completes India's nuclear triad with land, air, and sea-based delivery systems. Defence Minister announced that the missile will be inducted into Strategic Forces Command by year-end. The development marks significant advancement in India's deterrent capability amid regional security challenges. International reactions are mixed with strategic partners welcoming stability while neighbors expressing concern. The test complies with international obligations as India maintains no-first-use policy. Technological breakthroughs include indigenous guidance systems, heat-resistant materials, and compact warhead design. The achievement represents culmination of 20-year development program involving DRDO, BARC, and private industry. Strategic analysts note this enhances India's position in global nuclear order while maintaining responsible nuclear stewardship. The government has reiterated commitment to peaceful use of technology while ensuring national security.",
+        "pubdate": "2024-04-01T13:45:00Z",
+        "category": "latest",
+        "country": "India",
+        "keywords": [
+            "Agni-VI",
+            "missile test",
+            "MIRV",
+            "defense technology",
+            "strategic weapons"
+        ],
+        "language": "hi",
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Agni-V_missile_launch.jpg/800px-Agni-V_missile_launch.jpg",
+            "https://images.unsplash.com/photo-1542744095-fcf48d80b0fd",
+            "https://images.unsplash.com/photo-1542744095-fcf48d80b0fd",
+            "https://images.unsplash.com/photo-1542744095-fcf48d80b0fd"
+        ]
+    }
+]

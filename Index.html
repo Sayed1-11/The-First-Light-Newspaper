@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The First Light</title>
+    <link rel="shortcut icon" href="Assets/Images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="main-nav">
+
+            <!-- Left side: Menu toggle and navigation -->
+            <div class="nav-left">
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="date">
+                    <i class="far fa-calendar-alt"></i>
+                    <span id="current-date"></span>
+                </div>
+            </div>
+
+            <!-- Center: Logo -->
+            <div class="logo-container">
+                <a href="/" class="logo">
+                    <img src="Assets/Images/logo.png" alt="">
+                </a>
+            </div>
+
+            <!-- Right side: Action buttons -->
+            <div class="nav-right">
+                <button class="search-icon">
+                    <i class="fas fa-search"></i>
+                </button>
+                <a href="#" class="epaper-btn">
+                    <span>E-paper</span>
+                </a>
+                <a href="#" class="nav-btn login-btn">
+                    <i class="fas fa-user"></i>
+                    <span>Login</span>
+                </a>
+                <a href="#" class="nav-btn register-btn">
+                    <i class="fas fa-user-plus"></i>
+                    <span>Register</span>
+                </a>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <ul class="mobile-nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="#National">National</a></li>
+                <li><a href="#International">International</a></li>
+                <li><a href="#Sports">Sports</a></li>
+                <li><a href="#Technology">Technology</a></li>
+                <li><a href="#Entertainment">Entertainment</a></li>
+                <li><a href="#Health">Health</a></li>
+                <li><a href="#Business">Business</a></li>
+            </ul>
+            <div class="mobile-buttons">
+                <a href="#" class="nav-btn login-btn">
+                    <i class="fas fa-user"></i>
+                    <span>Login</span>
+                </a>
+                <a href="#" class="nav-btn register-btn">
+                    <i class="fas fa-user-plus"></i>
+                    <span>Register</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Category -->
+    <div class="category">
+        <ul class="category-list">
+            <li><a href="/">Home</a></li>
+            <li><a href="#National">National</a></li>
+            <li><a href="#International">International</a></li>
+            <li><a href="#Sports">Sports</a></li>
+            <li><a href="#Technology">Technology</a></li>
+            <li><a href="#Entertainment">Entertainment</a></li>
+            <li><a href="#Health">Health</a></li>
+            <li><a href="#Business">Business</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="content">
+            <div class="col left-col" id="left-news">Hello</div>
+            <div class="col middle-col" id="middle-news">Mother</div>
+            <div class="col right-col" id="right-news">World</div>
+        </div>
+    </div>
+    <script src="App.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,222 @@
+[
+    {
+        "id": "TECH-001",
+        "title": "India's First 2nm Semiconductor Chip Developed by IIT Bombay and Tata Electronics",
+        "description": "In a groundbreaking achievement for India's semiconductor industry, researchers at IIT Bombay in collaboration with Tata Electronics have successfully developed and tested India's first indigenous 2-nanometer semiconductor chip. The breakthrough comes after three years of intensive R&D and an investment of ₹10,000 crore under the India Semiconductor Mission. The chip, named 'Shakti-2', demonstrates performance metrics comparable to leading international chips while consuming 30% less power. The research team utilized extreme ultraviolet (EUV) lithography technology acquired from ASML and adapted it for local manufacturing conditions. The chip features 50 billion transistors on a fingernail-sized silicon wafer and achieves clock speeds of 5.2 GHz. This development positions India among only five countries capable of designing and manufacturing cutting-edge semiconductors. Prime Minister Narendra Modi announced that commercial production will begin at the new ₹75,000 crore semiconductor fabrication plant in Dholera, Gujarat by early 2025. The facility will create 50,000 direct jobs and reduce India's semiconductor import dependency by 40%. Global tech giants including Apple, Qualcomm, and AMD have expressed interest in sourcing chips from India for their next-generation devices.",
+        "pubdate": "2024-03-25T10:00:00Z",
+        "category": "technology",
+        "country": "India",
+        "keywords": [
+            "semiconductor",
+            "2nm chip",
+            "IIT Bombay",
+            "Tata Electronics",
+            "India Semiconductor Mission"
+        ],
+        "language": "en",
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Integrated_circuit.jpg/800px-Integrated_circuit.jpg",
+            "https://images.unsplash.com/photo-1581094794329-c8112a89af12",
+            "https://images.unsplash.com/photo-1581094794329-c8112a89af12",
+            "https://images.unsplash.com/photo-1518709268805-4e9042af2176"
+        ]
+    },
+    {
+        "id": "TECH-002",
+        "title": "5G Services Reach All 6 Lakh Villages in India: World's Largest Rural 5G Deployment",
+        "description": "India has achieved a monumental milestone in digital connectivity with 5G services now available in all 6 lakh villages across the country, completing the world's largest rural 5G deployment in just 18 months. The project, executed under the BharatNet Phase 3 initiative, involved installation of 2.5 million 5G towers with special focus on remote and challenging terrains including the Himalayas, North-East regions, and tribal areas. Telecom operators Jio and Airtel collaborated with the government to ensure 95% population coverage with minimum download speeds of 100 Mbps in rural areas. The deployment utilized innovative solutions like solar-powered towers, satellite backhaul connectivity, and software-defined networking. Key applications enabled include telemedicine in 1 lakh health centers, digital classrooms in 5 lakh schools, precision agriculture for 10 crore farmers, and e-governance services. The government invested ₹75,000 crore in this initiative which has created 5 lakh direct jobs in rural areas. International Telecommunication Union has recognized this as the fastest large-scale 5G deployment in history. The next phase will focus on 5G Advanced (5.5G) deployment starting 2025, aiming to achieve 1 Gbps speeds nationwide. This infrastructure is expected to boost India's digital economy by $1 trillion by 2030.",
+        "pubdate": "2024-03-24T14:30:00Z",
+        "category": "technology",
+        "country": "India",
+        "keywords": [
+            "5G",
+            "rural connectivity",
+            "BharatNet",
+            "digital India",
+            "telecom infrastructure"
+        ],
+        "language": "hi",
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/5G_Logo.svg/800px-5G_Logo.svg.png",
+            "https://images.unsplash.com/photo-1546054451-aa724b68d41c",
+            "https://images.unsplash.com/photo-1546054451-aa724b68d41c",
+            "https://images.unsplash.com/photo-1546054451-aa724b68d41c"
+        ]
+    },
+    {
+        "id": "TECH-003",
+        "title": "ISRO Successfully Tests Reusable Launch Vehicle: 75% Cost Reduction for Space Missions",
+        "description": "The Indian Space Research Organisation (ISRO) has successfully completed the third and final test of its Reusable Launch Vehicle (RLV) 'Pushpak', achieving a perfect autonomous landing at the Aeronautical Test Range in Chitradurga, Karnataka. The 6.5-meter long winged vehicle was carried to an altitude of 4.5 km by a helicopter and released, after which it autonomously navigated and landed precisely on a runway. This breakthrough enables ISRO to reuse rocket components up to 10 times, reducing launch costs by 75% from $5,000/kg to $1,250/kg. The RLV features advanced heat-resistant carbon-carbon composites that withstand re-entry temperatures of 1500°C, autonomous landing systems using AI-based navigation, and rapid turnaround capabilities of just 48 hours between missions. ISRO Chairman S. Somanath announced that the first operational mission using RLV technology will launch in 2025, carrying multiple satellites for the Navigation with Indian Constellation (NavIC) system. The technology will also support India's ambitious Gaganyaan human spaceflight program and future lunar missions. Private space companies including Skyroot Aerospace and Agnikul Cosmos will license this technology for commercial launches. This achievement places India alongside the United States and China as the only countries with operational reusable launch vehicle technology.",
+        "pubdate": "2024-03-23T09:45:00Z",
+        "category": "technology",
+        "country": "India",
+        "keywords": [
+            "ISRO",
+            "reusable launch vehicle",
+            "space technology",
+            "RLV Pushpak",
+            "cost reduction"
+        ],
+        "language": "en",
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/ISRO_Logo.svg/800px-ISRO_Logo.svg.png",
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Satish_Dhawan_Space_Centre_Second_Launch_Pad.jpg/800px-Satish_Dhawan_Space_Centre_Second_Launch_Pad.jpg",
+            "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06",
+            "https://images.unsplash.com/photo-1462331940025-496dfbfc7564"
+        ]
+    },
+    {
+        "id": "TECH-004",
+        "title": "Indian AI Startup 'Karya' Raises $500 Million at $5 Billion Valuation",
+        "description": "Bengaluru-based AI startup Karya has raised $500 million in Series D funding led by SoftBank Vision Fund 2, achieving a valuation of $5 billion - the highest for an Indian AI startup. Karya has developed India's first Large Language Model specifically trained on Indian languages and cultural contexts, supporting 22 scheduled languages and 200 dialects. The funding will accelerate development of 'BharatGPT', an AI model with 1 trillion parameters trained on India-specific datasets including legal documents in regional languages, traditional knowledge systems, and multilingual content. Karya's technology addresses critical gaps in global AI by providing culturally contextual responses and eliminating Western biases in training data. The startup has partnered with 500 Indian academic institutions to create the world's largest annotated dataset of Indian languages, involving 1 million contributors from rural India. Applications include AI-powered education in regional languages, healthcare diagnostics for rural populations, agricultural advisory systems, and legal document processing in vernacular languages. Founder Dr. Smitha Krishna announced plans to open 10 AI research centers across India focusing on ethical AI, bias mitigation, and inclusive technology development. The investment reflects growing global confidence in India's AI capabilities and the strategic importance of non-English language AI models.",
+        "pubdate": "2024-03-22T16:20:00Z",
+        "category": "technology",
+        "country": "India",
+        "keywords": [
+            "AI startup",
+            "large language model",
+            "Indian languages",
+            "BharatGPT",
+            "SoftBank funding"
+        ],
+        "language": "hi",
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/800px-ChatGPT_logo.svg.png",
+            "https://images.unsplash.com/photo-1677442136019-21780ecad995",
+            "https://images.unsplash.com/photo-1677442136019-21780ecad995",
+            "https://images.unsplash.com/photo-1677442136019-21780ecad995"
+        ]
+    },
+    {
+        "id": "TECH-005",
+        "title": "India's Quantum Computing Mission: First 100-Qubit Quantum Computer Developed",
+        "description": "India has entered the quantum computing elite with the successful development of its first 100-qubit quantum computer by researchers at the Indian Institute of Science (IISc) Bangalore and the Defence Research and Development Organisation (DRDO). Named 'BrahMos-Q', the quantum computer utilizes superconducting qubits cooled to near absolute zero (-273°C) in specialized cryogenic systems developed indigenously. The system achieves quantum coherence of 100 microseconds, enabling complex calculations that would take classical supercomputers thousands of years. Primary applications include cryptography for national security, drug discovery for traditional medicine compounds, climate modeling for monsoon prediction, and optimization of India's renewable energy grid. The government has announced the National Quantum Mission with ₹10,000 crore funding to develop 1000-qubit quantum computers by 2030. Eight quantum computing hubs will be established across India focusing on hardware, algorithms, materials, and applications. International collaborations include partnerships with IBM Quantum, Google Quantum AI, and the University of Waterloo. The technology has already been deployed for secure communications in defense and is being tested for optimizing India's UPI payment network. This achievement places India among the top six nations with indigenous quantum computing capabilities and sets the stage for quantum supremacy in specific application domains.",
+        "pubdate": "2024-03-21T13:15:00Z",
+        "category": "technology",
+        "country": "India",
+        "keywords": [
+            "quantum computing",
+            "100-qubit",
+            "IISc",
+            "DRDO",
+            "National Quantum Mission"
+        ],
+        "language": "en",
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Quantum_computer.svg/800px-Quantum_computer.svg.png",
+            "https://images.unsplash.com/photo-1635070041078-e363dbe005cb",
+            "https://images.unsplash.com/photo-1635070041078-e363dbe005cb",
+            "https://images.unsplash.com/photo-1635070041078-e363dbe005cb"
+        ]
+    },
+    {
+        "id": "TECH-006",
+        "title": "Digital Rupee (e₹) Transactions Cross 1 Billion Monthly: RBI Announces Expansion",
+        "description": "The Reserve Bank of India has announced that Digital Rupee (e₹) transactions have crossed 1 billion per month, marking rapid adoption of India's Central Bank Digital Currency (CBDC). The e₹-R (retail) and e₹-W (wholesale) versions now account for 15% of all digital transactions in India. RBI Governor Shaktikanta Das revealed that 500 million users have onboarded the digital rupee ecosystem through 100 participating banks. Key use cases include direct benefit transfers to 300 million beneficiaries, corporate payroll for 10 million employees, cross-border remittances with 30 countries, and programmable payments for agriculture subsidies. The digital rupee features offline functionality for rural areas, tokenization for secure transactions, and smart contract capabilities for automated payments. RBI has partnered with 50 fintech companies to develop innovative applications including micro-loans disbursement, insurance claim settlements, and supply chain financing. The next phase will introduce interest-bearing digital rupee accounts, integration with UPI for seamless payments, and expansion to non-resident Indians. The success has prompted international interest with 15 central banks studying India's model. RBI estimates that digital rupee will save ₹50,000 crore annually in currency printing and transaction costs while increasing financial inclusion to 100% of adults by 2026.",
+        "pubdate": "2024-03-20T11:30:00Z",
+        "category": "technology",
+        "country": "India",
+        "keywords": [
+            "digital rupee",
+            "CBDC",
+            "RBI",
+            "digital currency",
+            "financial technology"
+        ],
+        "language": "hi",
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Reserve_Bank_of_India_Logo.svg/800px-Reserve_Bank_of_India_Logo.svg.png",
+            "https://images.unsplash.com/photo-1616401784845-180882ba9ba8",
+            "https://images.unsplash.com/photo-1616401784845-180882ba9ba8",
+            "https://images.unsplash.com/photo-1616401784845-180882ba9ba8"
+        ]
+    },
+    {
+        "id": "TECH-007",
+        "title": "India's Data Center Capacity to Triple: ₹2 Lakh Crore Investment Announced",
+        "description": "India's data center industry is set for massive expansion with leading companies including Adani Group, Reliance Industries, and foreign investors announcing investments totaling ₹2 lakh crore to triple capacity by 2027. The plan will increase India's data center capacity from 800 MW to 2,400 MW, establishing the country as the second-largest data center market in Asia-Pacific. New hyperscale data centers will be built across 10 states with special focus on renewable energy integration, achieving 75% green energy usage through solar and wind power. The expansion includes development of edge computing infrastructure in 100 cities to support 5G applications, IoT devices, and real-time analytics. Strategic locations include Chennai (India's data center capital), Mumbai, Hyderabad, and new hubs in North-East India for geographic diversity. The government has announced the Data Center Policy 2024 offering incentives including subsidized land, power tariff concessions, and fast-track clearances. This infrastructure will support India's growing digital economy expected to reach $1 trillion by 2030. Key drivers include data localization requirements, growth of Indian SaaS companies, increasing cloud adoption, and demand from global tech giants. The expansion will create 500,000 direct and indirect jobs while reducing data hosting costs by 40% for Indian businesses.",
+        "pubdate": "2024-03-19T15:45:00Z",
+        "category": "technology",
+        "country": "India",
+        "keywords": [
+            "data centers",
+            "cloud infrastructure",
+            "hyperscale",
+            "digital economy",
+            "data localization"
+        ],
+        "language": "en",
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Data_Center_Telehouse_Paris.jpg/800px-Data_Center_Telehouse_Paris.jpg",
+            "https://images.unsplash.com/photo-1620712943543-bcc4688e7485",
+            "https://images.unsplash.com/photo-1620712943543-bcc4688e7485",
+            "https://images.unsplash.com/photo-1620712943543-bcc4688e7485"
+        ]
+    },
+    {
+        "id": "TECH-008",
+        "title": "Indian Robotics Startup 'GenRobotics' Deploying AI Robots for Sanitation Work",
+        "description": "Kerala-based robotics startup GenRobotics has begun mass deployment of its AI-powered robot 'Bandicoot' for mechanized cleaning of manholes and septic tanks, eliminating the need for manual scavenging. The fourth-generation Bandicoot robots feature advanced computer vision for inspection, robotic arms with multiple degrees of freedom, and AI algorithms for autonomous operation. Over 10,000 units have been deployed across 200 Indian cities under the Swachh Bharat Mission, with plans to expand to 50,000 units by 2025. The robots can clean manholes 10 times faster than manual methods while ensuring worker safety and dignity. GenRobotics has raised $200 million from impact investors including Bill & Melinda Gates Foundation and Indian government's Startup India fund. The technology has been exported to 15 countries including Malaysia, Singapore, and Middle Eastern nations. The startup is developing next-generation robots for other hazardous tasks including industrial cleaning, disaster response, and construction safety. Founder Vimal Govind MK announced the 'Robot for Humanity' initiative to train 100,000 sanitation workers as robot operators with formal employment contracts. The United Nations has recognized this innovation as a model for using technology to address social challenges while creating new economic opportunities in the blue-collar workforce.",
+        "pubdate": "2024-03-18T10:20:00Z",
+        "category": "technology",
+        "country": "India",
+        "keywords": [
+            "robotics",
+            "AI robots",
+            "sanitation",
+            "GenRobotics",
+            "social impact technology"
+        ],
+        "language": "hi",
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Robotic_arm_at_an_exhibition.jpg/800px-Robotic_arm_at_an_exhibition.jpg",
+            "https://images.unsplash.com/photo-1485827404703-89b55fcc595e",
+            "https://images.unsplash.com/photo-1485827404703-89b55fcc595e",
+            "https://images.unsplash.com/photo-1485827404703-89b55fcc595e"
+        ]
+    },
+    {
+        "id": "TECH-009",
+        "title": "India's First Hydrogen Fuel Cell Electric Vehicles Launched by Tata Motors",
+        "description": "Tata Motors has launched India's first commercial hydrogen fuel cell electric vehicles (FCEVs), marking a significant leap in sustainable transportation. The initial lineup includes hydrogen-powered buses for public transport and heavy trucks for logistics, with passenger cars to follow in 2025. The FCEVs feature fuel cells developed in partnership with ISRO utilizing Indian technology, offering a range of 600 km on a single hydrogen fill with refueling taking just 10 minutes. Tata has established India's first green hydrogen production and refueling network with 100 stations planned across national highways by 2026. The vehicles emit only water vapor, achieving true zero emissions while offering advantages over battery electric vehicles for long-haul transportation. The government has announced the National Hydrogen Mobility Mission with ₹25,000 crore incentives including purchase subsidies, tax benefits, and hydrogen production subsidies. Tata Motors will manufacture FCEVs at its new ₹5,000 crore plant in Pune with capacity of 50,000 vehicles annually. International partnerships include technology transfer from Toyota and joint research with Indian Oil Corporation for hydrogen infrastructure. This initiative supports India's commitment to achieve net-zero emissions by 2070 and positions the country as a leader in hydrogen mobility in developing economies.",
+        "pubdate": "2024-03-17T14:00:00Z",
+        "category": "technology",
+        "country": "India",
+        "keywords": [
+            "hydrogen vehicles",
+            "fuel cell",
+            "Tata Motors",
+            "green hydrogen",
+            "sustainable transportation"
+        ],
+        "language": "en",
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Tata_Motors.svg/800px-Tata_Motors.svg.png",
+            "https://images.unsplash.com/photo-1549399542-7e3f8b79c341",
+            "https://images.unsplash.com/photo-1549399542-7e3f8b79c341",
+            "https://images.unsplash.com/photo-1549399542-7e3f8b79c341"
+        ]
+    },
+    {
+        "id": "TECH-010",
+        "title": "India's Cybersecurity Command Center 'IND-CERT' Becomes Operational",
+        "description": "India's National Cybersecurity Command Center 'IND-CERT' has become fully operational, providing 24/7 monitoring and protection for the country's critical digital infrastructure. Located in New Delhi with regional hubs in Mumbai, Bengaluru, and Hyderabad, IND-CERT integrates AI-powered threat detection, quantum-safe encryption, and real-time response capabilities. The facility monitors 10,000 critical assets including power grids, financial systems, telecommunications networks, and government digital services. Advanced features include behavioral analytics detecting anomalous patterns, automated incident response reducing reaction time from hours to seconds, and threat intelligence sharing with 50 international CERTs. IND-CERT has already prevented major cyber attacks including attempts on India's Aadhaar system, UPI payment network, and power distribution infrastructure. The center employs 5,000 cybersecurity experts and utilizes indigenous technologies developed by DRDO and Indian IT companies. Training programs will certify 100,000 cybersecurity professionals annually through partnerships with educational institutions. The government has mandated that all critical infrastructure organizations connect to IND-CERT by 2025 with real-time monitoring. International collaborations include joint cyber exercises with Quad countries (USA, Japan, Australia) and information sharing agreements with EU and ASEAN nations. This establishment represents India's most comprehensive cybersecurity initiative and sets new standards for national digital protection in the era of increasing cyber warfare threats.",
+        "pubdate": "2024-03-16T17:30:00Z",
+        "category": "technology",
+        "country": "India",
+        "keywords": [
+            "cybersecurity",
+            "IND-CERT",
+            "critical infrastructure",
+            "threat detection",
+            "national security"
+        ],
+        "language": "hi",
+        "images": [
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Cyber_security.jpg/800px-Cyber_security.jpg",
+            "https://images.unsplash.com/photo-1550751827-4bd374c3f58b",
+            "https://images.unsplash.com/photo-1550751827-4bd374c3f58b",
+            "https://images.unsplash.com/photo-1550751827-4bd374c3f58b"
+        ]
+    }
+]
