@@ -1,66 +1,63 @@
 const today = new Date();
 document.getElementById("current-date").innerHTML = today.toDateString();
 
-document.getElementById('menuToggle').addEventListener('click', function () {
-    document.getElementById('mobileMenu').classList.toggle('active');
+document.getElementById("menuToggle").addEventListener("click", function () {
+  document.getElementById("mobileMenu").classList.toggle("active");
 });
 
-
 function timeAgo(dateString) {
-    const date = new Date(dateString);
-    const now = new Date();
-    const seconds = Math.floor((now - date) / 1000);
+  const date = new Date(dateString);
+  const now = new Date();
+  const seconds = Math.floor((now - date) / 1000);
 
-    let interval = Math.floor(seconds / 31536000);
-    if (interval >= 1) {
-        return interval + (interval === 1 ? " year ago" : " years ago");
-    }
-    interval = Math.floor(seconds / 2592000);
-    if (interval >= 1) {
-        return interval + (interval === 1 ? " month ago" : " months ago");
-    }
-    interval = Math.floor(seconds / 86400);
-    if (interval >= 1) {
-        return interval + (interval === 1 ? " day ago" : " days ago");
-    }
-    interval = Math.floor(seconds / 3600);
-    if (interval >= 1) {
-        return interval + (interval === 1 ? " hour ago" : " hours ago");
-    }
-    interval = Math.floor(seconds / 60);
-    if (interval >= 1) {
-        return interval + (interval === 1 ? " minute ago" : " minutes ago");
-    }
-    return Math.floor(seconds) + (seconds === 1 ? " second ago" : " seconds ago");
+  let interval = Math.floor(seconds / 31536000);
+  if (interval >= 1) {
+    return interval + (interval === 1 ? " year ago" : " years ago");
+  }
+  interval = Math.floor(seconds / 2592000);
+  if (interval >= 1) {
+    return interval + (interval === 1 ? " month ago" : " months ago");
+  }
+  interval = Math.floor(seconds / 86400);
+  if (interval >= 1) {
+    return interval + (interval === 1 ? " day ago" : " days ago");
+  }
+  interval = Math.floor(seconds / 3600);
+  if (interval >= 1) {
+    return interval + (interval === 1 ? " hour ago" : " hours ago");
+  }
+  interval = Math.floor(seconds / 60);
+  if (interval >= 1) {
+    return interval + (interval === 1 ? " minute ago" : " minutes ago");
+  }
+  return Math.floor(seconds) + (seconds === 1 ? " second ago" : " seconds ago");
 }
-
 
 function truncateText(text, limit) {
-    if (!text) return "";
-    const words = text.split(' ');
-    if (words.length <= limit) return text;
-    return words.slice(0, limit).join(' ') + '...';
+  if (!text) return "";
+  const words = text.split(" ");
+  if (words.length <= limit) return text;
+  return words.slice(0, limit).join(" ") + "...";
 }
 
-fetch('Assets/home.json')
-    .then(response => response.json())
-    .then(data => {
-        console.log("Fetched data:", data);
-        const news = data;
-        const imageNews = news.filter(item => item.images && item.images.length > 0);
-        const noImageNews = news.filter(item => !item.images || item.images.length === 0);
-        const leftCol = document.getElementById('left-news');
-        if (leftCol) {
-            let leftHTML = '';
-            if (imageNews.length > 0) {
-                leftHTML += imageNews.slice(0, 3).map(item => {
-                    const imgSrc = item.images && item.images.length > 0 ? item.images[0] : 'https://via.placeholder.com/150x100?text=No+Image';
-                    return `
+fetch("Assets/home.json")
+  .then((response) => response.json())
+  .then((data) => {
+    const news = data;
+    document.getElementById("left-news").innerHTML =
+      news
+        .slice(0, 3)
+        .map((item) => {
+          const imgSrc =
+            item.images && item.images.length > 0
+              ? item.images[0]
+              : "https://via.placeholder.com/150x100?text=No+Image";
+          return `
                     <div class='news-item'>
-                        <a class='news-link' href="${item.link || '#'}">
+                        <a class='news-link' href="details.html?id=${item.id}">
                             <div class='image-title'>
-                                <img src="${imgSrc}" alt="${item.title}">
-                                <h2>${item.title}</h2>
+                            <h2>${item.title}</h2>
+                            <img src="${imgSrc}" alt="${item.title}">
                                 
                                 </div>
                                     <p>${truncateText(item.description, 10)}</p>
@@ -68,14 +65,14 @@ fetch('Assets/home.json')
                             </div>
                         </a>
                     </div>`;
-                }).join('');
-            }
-
-            // Next 3 no-image news
-            if (noImageNews.length > 0) {
-                leftHTML += noImageNews.slice(0, 3).map(item => `
+        })
+        .join("") +
+      news
+        .slice(3, 6)
+        .map(
+          (item) => `
                     <div class='news-item'>
-                        <a class='news-link' href="${item.link || '#'}">
+                        <a class='news-link' href="details.html?id=${item.id}">
                             <div class='image-title'>
                                 <div>
                                     <h2>${item.title}</h2>
@@ -84,161 +81,347 @@ fetch('Assets/home.json')
                                 </div>
                             </div>
                         </a>
-                    </div>`).join('');
-            }
+                    </div>`
+        )
+        .join("");
 
-            leftCol.innerHTML = leftHTML;
-        }
+  
 
-        const middleCol = document.getElementById('middle-news');
-        if (middleCol) {
-            let middleHTML = '';
-            if (imageNews.length > 6) {
-                const featuredItem = imageNews[6];
-                middleHTML += `
-                <div class='news-item-middle'>
-                    <a class='news-link' href="${featuredItem.link || '#'}">
-                        <div class='image-title-middle'>
-                            <img src="${featuredItem.images[0]}" alt="${featuredItem.title}">
-                            <h3>${featuredItem.title}</h3>
-                            </div>
-                                <p>${truncateText(featuredItem.description, 15)}</p>
-                                <p>${timeAgo(featuredItem.pubdate)}</p>
-                           
-                       
-                    </a>
-                </div>`;
-            }
+  });
 
-            // Side-by-side news (indices 7 and 8 from imageNews)
-            if (imageNews.length > 8) {
-                middleHTML += `
-                <div class='middle-side-by-side'>
-                    ${imageNews.slice(7, 9).map(item => `
-                    <div class='news-item-middle-s'>
-                        <a class='news-link' href="${item.link || '#'}">
-                            <div class='image-title-middle-small'>
-                                <img src="${item.images[0]}" alt="${item.title}">
-                                <div>
-                                    <h2>${item.title}</h2>
-                                    <p>${truncateText(item.description, 8)}</p>
-                                    <p>${timeAgo(item.pubdate)}</p>
+
+fetch("Assets/sports.json")
+  .then((response) => response.json())
+  .then((data) => {
+    const news = data;
+  document.getElementById("middle-news").innerHTML =
+      news
+        .slice(0, 1)
+        .map((item) => {
+          const imgSrc =
+            item.images && item.images.length > 0
+              ? item.images[0]
+              : "https://via.placeholder.com/150x100?text=No+Image";
+          return `
+                    <div class='news-item-middle'>
+                        <a class='news-link' href="details.html?id=${item.id}">
+                            <div class='image-title-middle'>
+                                <img src="${imgSrc}" alt="${item.title}">
+                                <h3>${item.title}</h3>
                                 </div>
+                                    <p>${truncateText(item.description, 10)}</p>
+                                    <p>${timeAgo(item.pubdate)}</p>
                             </div>
                         </a>
-                    </div>`).join('')}
-                </div>`;
-            }
+                    </div>`;
+        })
+        .join("") +
 
-            middleCol.innerHTML = middleHTML;
-        }
+`
+<div class='middle-side-by-side'>
+    ${news.slice(1, 3).map(item => {
+        const imgSrc = item.images && item.images.length > 0
+            ? item.images[0]
+            : 'https://via.placeholder.com/150x100?text=No+Image';
 
-        const rightCol = document.getElementById('right-news');
-        if (rightCol) {
+        return `
+        <div class='news-item-middle-small'>
+            <a class='news-link' href="details.html?id=${item.id}">
 
-            const startIndex = 9;
-            const rightNews = imageNews.slice(startIndex, startIndex + 3);
-            const remainingNoImageNews = noImageNews.slice(3, 6);
+            <div class='image-title-middle-small'>
+            <img src="${imgSrc}" alt="${item.title}">
+            <h3>${item.title}</h3>
+            </div>
+                <p>${truncateText(item.description, 10)}</p>
+                <p>${timeAgo(item.pubdate)}</p>
+            </a>
+        </div>`;
+    }).join("")}
+</div>
+` +
+`
+<div class='middle-side-by-side'>
+    ${news.slice(3, 6).map(item => {
+        const imgSrc = item.images && item.images.length > 0
+            ? item.images[0]
+            : 'https://via.placeholder.com/150x100?text=No+Image';
 
-            let rightHTML = '';
+        return `
+        <div class='news-item-middle-grid'>
+            <a class='news-link' href="details.html?id=${item.id}">
 
-            // Image news
-            if (rightNews.length > 0) {
-                rightHTML += rightNews.map(item => `
-                <div class='news-item'>
-                    <a class='news-link' href="${item.link || '#'}">
-                        <div class='image-title'>
-                            <img src="${item.images[0]}" alt="${item.title}">
-                            <div>
-                                <h2>${item.title}</h2>
-                                <p>${truncateText(item.description, 10)}</p>
-                                <p>${timeAgo(item.pubdate)}</p>
+            <div class='image-title-middle-extra'>
+            <img src="${imgSrc}" alt="${item.title}">
+            <h3>${item.title}</h3>
+            </div>
+                <p>${truncateText(item.description, 10)}</p>
+                <p>${timeAgo(item.pubdate)}</p>
+            </a>
+        </div>`;
+    }).join("")}
+</div>
+`
+;
+  });
+
+
+fetch("Assets/business.json")
+  .then((response) => response.json())
+  .then((data) => {
+    const news = data;
+  document.getElementById("right-news").innerHTML =
+      news
+        .slice(0, 5)
+        .map((item) => {
+            const imgSrc =
+            item.images && item.images.length > 0
+              ? item.images[0]
+              : "https://via.placeholder.com/150x100?text=No+Image";
+          return `
+                    <div class='news-item'>
+                        <a class='news-link' href="details.html?id=${item.id}">
+                            <div class='image-title'>
+                            <h3>${item.title}</h3>
+                            <img src="${imgSrc}" alt="${item.title}">
+                                </div>
+                                    <p>${truncateText(item.description, 10)}</p>
+                                    <p>${timeAgo(item.pubdate)}</p>
                             </div>
-                        </div>
-                    </a>
-                </div>`).join('');
+                        </a>
+                    </div>`;
+        })
+        .join("") 
+;
+  });  
+  
+  
+  
+// App.js - Video Carousel
+console.log('App.js loaded successfully');
+
+// Carousel state
+let currentSlide = 0;
+let slidesPerView = 3;
+let videoData = [];
+
+// Initialize when page loads
+window.onload = function() {
+    console.log('Window loaded, initializing carousel...');
+    loadVideos();
+};
+
+function loadVideos() {
+    console.log('Loading videos from JSON...');
+    
+    // Show loading state
+    const carousel = document.getElementById('videos-carresol');
+    if (carousel) {
+        carousel.innerHTML = '<div class="loading">Loading videos...</div>';
+    }
+    
+    fetch("Assets/videos.json")
+        .then((response) => {
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
             }
-
-            // No-image news
-            if (remainingNoImageNews.length > 0) {
-                rightHTML += remainingNoImageNews.map(item => `
-                <div class='news-item'>
-                    <a class='news-link' href="${item.link || '#'}">
-                        <div class='image-title'>
-                            <div>
-                                <h2>${item.title}</h2>
-                                <p>${truncateText(item.description, 10)}</p>
-                                <p>${timeAgo(item.pubdate)}</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>`).join('');
-            }
-
-            rightCol.innerHTML = rightHTML;
-        }
-
-        // Add click handlers for all news links
-        document.querySelectorAll('.news-link').forEach(link => {
-            link.addEventListener('click', function (e) {
-                const href = this.getAttribute('href');
-                if (href === '#') {
-                    e.preventDefault();
-                    alert('This is a demo link. In a real application, this would navigate to the full article.');
-                }
-            });
+            return response.json();
+        })
+        .then((data) => {
+            console.log(`Successfully loaded ${data.length} videos`);
+            videoData = data;
+            displayCarousel();
+            setupCarouselControls();
+        })
+        .catch((error) => {
+            console.error('Error loading videos:', error);
+            showError(error.message);
         });
+}
 
-    })
-    .catch(error => {
-        console.error('Error loading news:', error);
-        // Show error message
-        document.getElementById('left-news').innerHTML = '<p class="error">Failed to load news. Please try again later.</p>';
-        document.getElementById('middle-news').innerHTML = '';
-        document.getElementById('right-news').innerHTML = '';
+function displayCarousel() {
+    console.log('Displaying carousel...');
+    
+    const carousel = document.getElementById('videos-carresol');
+    const indicators = document.getElementById('carousel-indicators');
+    
+    // Check if elements exist
+    if (!carousel) {
+        console.error('❌ ERROR: Element #videos-carresol not found!');
+        return;
+    }
+    
+    if (videoData.length === 0) {
+        carousel.innerHTML = '<div class="error-message">No videos found</div>';
+        return;
+    }
+    
+    // Clear existing content
+    carousel.innerHTML = '';
+    if (indicators) indicators.innerHTML = '';
+    
+    // Create video cards
+    videoData.forEach((video, index) => {
+        // Create video card
+        const videoCard = document.createElement('div');
+        videoCard.className = 'video-card';
+        videoCard.dataset.index = index;
+        
+        // Format date safely
+        const formattedDate = formatDate(video.pubdate);
+        
+        videoCard.innerHTML = `
+            <img src="${video.image}" alt="${video.title}" class="video-image" loading="lazy">
+            <div class="video-info">
+                <h3 class="video-title">${video.title}</h3>
+                <p class="video-description">${video.description}</p>
+                <div class="video-meta">
+                    <span class="video-date">${formattedDate}</span>
+                    <a href="${video.youtube_link}" target="_blank" rel="noopener noreferrer" class="video-link">Watch</a>
+                </div>
+            </div>
+        `;
+        
+        carousel.appendChild(videoCard);
+        
+        // Create indicator if indicators element exists
+        if (indicators) {
+            const indicator = document.createElement('div');
+            indicator.className = 'indicator';
+            if (index === 0) indicator.classList.add('active');
+            indicator.dataset.slide = index;
+            indicator.addEventListener('click', () => {
+                goToSlide(index);
+            });
+            indicators.appendChild(indicator);
+        }
     });
+    
+    console.log(`Created ${videoData.length} video cards`);
+    updateCarousel();
+}
 
-// Add error styling
-const style = document.createElement('style');
-style.textContent = `
-    .error {
-        color: #c00;
-        text-align: center;
-        padding: 20px;
-        font-size: 1.1rem;
+function formatDate(dateString) {
+    try {
+        const date = new Date(dateString);
+        if (isNaN(date.getTime())) {
+            return dateString; // Return original if invalid
+        }
+        return date.toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric'
+        });
+    } catch (e) {
+        return dateString; // Return original if error
+    }
+}
+
+function updateCarousel() {
+    const carousel = document.getElementById('videos-carresol');
+    if (!carousel) return;
+    
+    // Calculate slides per view based on screen width
+    if (window.innerWidth <= 768) {
+        slidesPerView = 1;
+    } else if (window.innerWidth <= 992) {
+        slidesPerView = 2;
+    } else {
+        slidesPerView = 3;
     }
     
-    /* Ensure images don't break layout */
-    .image-title img {
-        max-width: 100%;
-        height: auto;
+    // Calculate scroll position
+    const cardWidth = 100 / slidesPerView;
+    const scrollAmount = cardWidth * currentSlide;
+    carousel.style.transform = `translateX(-${scrollAmount}%)`;
+    
+    // Update indicators
+    updateIndicators();
+    
+    console.log(`Slide ${currentSlide + 1} of ${Math.ceil(videoData.length / slidesPerView)}`);
+}
+
+function updateIndicators() {
+    const indicators = document.querySelectorAll('.indicator');
+    
+    indicators.forEach((indicator, index) => {
+        if (index === currentSlide) {
+            indicator.classList.add('active');
+        } else {
+            indicator.classList.remove('active');
+        }
+    });
+}
+
+function goToSlide(slideIndex) {
+    const totalSlides = Math.ceil(videoData.length / slidesPerView);
+
+    if (slideIndex < 0) {
+        slideIndex = totalSlides - 1;
+    } else if (slideIndex >= totalSlides) {
+        slideIndex = 0;
     }
     
-    /* Fix for news-item-middle-s */
-    .news-item-middle-s {
-        margin-bottom: 20px;
+    currentSlide = slideIndex;
+    updateCarousel();
+}
+
+function nextSlide() {
+    const totalSlides = Math.ceil(videoData.length / slidesPerView);
+    goToSlide((currentSlide + 1) % totalSlides);
+}
+
+function prevSlide() {
+    const totalSlides = Math.ceil(videoData.length / slidesPerView);
+    goToSlide((currentSlide - 1 + totalSlides) % totalSlides);
+}
+
+function setupCarouselControls() {
+    console.log('Setting up carousel controls...');
+    
+    // Next/Prev button event listeners
+    const nextBtn = document.querySelector('.next-btn');
+    const prevBtn = document.querySelector('.prev-btn');
+    
+    if (nextBtn) {
+        nextBtn.addEventListener('click', nextSlide);
+    } else {
+        console.warn('Next button not found');
     }
     
-    .image-title-middle-small {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
+    if (prevBtn) {
+        prevBtn.addEventListener('click', prevSlide);
+    } else {
+        console.warn('Prev button not found');
     }
     
-    .image-title-middle-small img {
-        width: 100%;
-        height: 140px;
-        object-fit: cover;
-        border-radius: 4px;
-    }
+    // Update on window resize
+    window.addEventListener('resize', updateCarousel);
     
-    .image-title-middle-text h2 {
-        font-size: 1.2rem;
-        margin-bottom: 10px;
-    }
+    // Add keyboard navigation
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowRight') nextSlide();
+        if (e.key === 'ArrowLeft') prevSlide();
+    });
     
-    .image-title-middle-text p {
-        margin-bottom: 5px;
+}
+
+function showError(message) {
+    const carousel = document.getElementById('videos-carresol');
+    if (carousel) {
+        carousel.innerHTML = `
+            <div class="error-message">
+                <p>⚠️ Error loading videos</p>
+                <p><small>${message}</small></p>
+                <button onclick="loadVideos()" style="margin-top: 10px; padding: 8px 16px; background: #ff0000; color: white; border: none; border-radius: 4px; cursor: pointer;">
+                    Retry
+                </button>
+            </div>
+        `;
     }
-`;
-document.head.appendChild(style);
+}
+
+// Make functions available globally for debugging
+window.loadVideos = loadVideos;
+window.nextSlide = nextSlide;
+window.prevSlide = prevSlide;
+window.goToSlide = goToSlide;

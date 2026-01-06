@@ -13,8 +13,6 @@
 <body>
     <nav class="navbar">
         <div class="main-nav">
-
-            <!-- Left side: Menu toggle and navigation -->
             <div class="nav-left">
                 <button class="menu-toggle" id="menuToggle">
                     <i class="fas fa-bars"></i>
@@ -24,15 +22,11 @@
                     <span id="current-date"></span>
                 </div>
             </div>
-
-            <!-- Center: Logo -->
             <div class="logo-container">
                 <a href="/" class="logo">
                     <img src="Assets/Images/logo.png" alt="">
                 </a>
             </div>
-
-            <!-- Right side: Action buttons -->
             <div class="nav-right">
                 <button class="search-icon">
                     <i class="fas fa-search"></i>
@@ -50,7 +44,6 @@
                 </a>
             </div>
         </div>
-        <!-- Mobile Menu -->
         <div class="mobile-menu" id="mobileMenu">
             <ul class="mobile-nav-menu">
                 <li><a href="/">Home</a></li>
@@ -90,13 +83,29 @@
     </div>
 
     <!-- Main Content -->
-    <div class="main-content">
+    <section class="main-content">
         <div class="content">
-            <div class="col left-col" id="left-news">Hello</div>
-            <div class="col middle-col" id="middle-news">Mother</div>
-            <div class="col right-col" id="right-news">World</div>
+            <div class="col left-col" id="left-news"></div>
+            <div class="col middle-col" id="middle-news"></div>
+            <div class="col right-col" id="right-news"></div>
         </div>
-    </div>
+    </section>
+
+    <section class="video-content">
+        <div class="carousel-container">
+            <button class="carousel-btn prev-btn">‹</button>
+            
+            <!-- This ID must match: "videos-carresol" -->
+            <div class="videos-carousel" id="videos-carresol">
+                <!-- Videos will be inserted here by JavaScript -->
+            </div>
+            
+            <button class="carousel-btn next-btn">›</button>
+            
+            <!-- Make sure this element exists too -->
+            <div class="carousel-indicators" id="carousel-indicators"></div>
+        </div>
+    </section>
     <script src="App.js"></script>
 </body>
 

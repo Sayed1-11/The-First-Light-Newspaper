@@ -15,7 +15,6 @@
         ],
         "language": "en",
         "images": [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/India_GDP_growth.png/800px-India_GDP_growth.png",
             "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3",
             "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3",
             "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3"
@@ -37,7 +36,6 @@
         ],
         "language": "hi",
         "images": [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Reliance_Industries_Logo.svg/800px-Reliance_Industries_Logo.svg.png",
             "https://images.unsplash.com/photo-1466611653911-95081537e5b7",
             "https://images.unsplash.com/photo-1466611653911-95081537e5b7",
             "https://images.unsplash.com/photo-1466611653911-95081537e5b7"
@@ -59,7 +57,6 @@
         ],
         "language": "en",
         "images": [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bombay_Stock_Exchange.jpg/800px-Bombay_Stock_Exchange.jpg",
             "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3",
             "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3",
             "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3"
@@ -80,8 +77,7 @@
             "Make in India"
         ],
         "language": "hi",
-        "images": [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Tata_Group_logo.svg/800px-Tata_Group_logo.svg.png",
+        "images":[
             "https://images.unsplash.com/photo-1581094794329-c8112a89af12",
             "https://images.unsplash.com/photo-1581094794329-c8112a89af12",
             "https://images.unsplash.com/photo-1581094794329-c8112a89af12"
@@ -103,7 +99,6 @@
         ],
         "language": "en",
         "images": [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Startup_India_logo.png/800px-Startup_India_logo.png",
             "https://images.unsplash.com/photo-1556761175-b413da4baf72",
             "https://images.unsplash.com/photo-1556761175-b413da4baf72",
             "https://images.unsplash.com/photo-1556761175-b413da4baf72"
@@ -125,7 +120,7 @@
         ],
         "language": "hi",
         "images": [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/IPhone_14_Pro_Deep_Purple.svg/800px-IPhone_14_Pro_Deep_Purple.svg.png",
+          
             "https://images.unsplash.com/photo-1581094794329-c8112a89af12",
             "https://images.unsplash.com/photo-1581094794329-c8112a89af12",
             "https://images.unsplash.com/photo-1581094794329-c8112a89af12"
@@ -147,7 +142,6 @@
         ],
         "language": "en",
         "images": [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Unified_Payments_Interface_Logo.svg/800px-Unified_Payments_Interface_Logo.svg.png",
             "https://images.unsplash.com/photo-1616401784845-180882ba9ba8",
             "https://images.unsplash.com/photo-1616401784845-180882ba9ba8",
             "https://images.unsplash.com/photo-1616401784845-180882ba9ba8"
