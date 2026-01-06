@@ -1704,12 +1704,15 @@ section {
         font-size: 1rem;
         padding: 15px 0 15px 25px;
     }
+       .international-container{
+        grid-template-columns: 1fr;
+    }
 }
 
 /* Extra Small Mobile */
 @media (max-width: 480px) {
 
-    .technology-card-small .news-link,
+    .technology-card-small .news-link,.international-container
     .sports-card-small .news-link,
     .entertainment-card-small .news-link {
         flex-direction: column;
@@ -1726,6 +1729,9 @@ section {
     .mobile-buttons .nav-btn {
         flex: 1;
         justify-content: center;
+    }
+       .international-container{
+        grid-template-columns: 1fr;
     }
 }
 
@@ -1780,6 +1786,9 @@ section {
 
     .news-item img {
         width: 100%;
+    }
+    .international-container{
+        grid-template-columns: 1fr;
     }
 }
 
@@ -2134,8 +2143,8 @@ section {
 
 /* International Section */
 .international-container {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
     padding: 0 20px 40px;
     max-width: 1400px;
@@ -2144,14 +2153,14 @@ section {
 }
 
 .international-card {
-    flex: 1;
+    display: flex;
     min-width: 180px;
     background: #fff;
-    display: flex;
-    flex-direction: column;
+    flex:1;
     align-items: center;
     text-align: center;
     padding: 10px;
+    gap:20px;
 }
 
 .international-card img {
@@ -2173,6 +2182,7 @@ section {
 .international-card h3 {
     font-size: 1.1rem;
     font-weight: 700;
+    text-align: start;
     margin-bottom: 8px;
     line-height: 1.3;
     color: #222;
@@ -2183,6 +2193,7 @@ section {
     color: #666;
     line-height: 1.5;
     margin-bottom: 10px;
+    text-align: start;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
