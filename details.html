@@ -1,11 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The First Light - News Details</title>
+    <link rel="shortcut icon" href="Assets/Images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    details page
+    <nav class="navbar">
+        <div class="main-nav">
+            <div class="nav-left">
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="date">
+                    <i class="far fa-calendar-alt"></i>
+                    <span id="current-date"></span>
+                </div>
+            </div>
+            <div class="logo-container">
+                <a href="/" class="logo">
+                    <img src="Assets/Images/logo.png" alt="">
+                </a>
+            </div>
+            <div class="nav-right">
+                <button class="search-icon">
+                    <i class="fas fa-search"></i>
+                </button>
+                <a href="#" class="epaper-btn">
+                    <span>E-paper</span>
+                </a>
+                <a href="#" class="nav-btn login-btn">
+                    <i class="fas fa-user"></i>
+                    <span>Login</span>
+                </a>
+                <a href="#" class="nav-btn register-btn">
+                    <i class="fas fa-user-plus"></i>
+                    <span>Register</span>
+                </a>
+            </div>
+        </div>
+        <div class="mobile-menu" id="mobileMenu">
+            <ul class="mobile-nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#National">National</a></li>
+                <li><a href="index.html#International">International</a></li>
+                <li><a href="index.html#Sports">Sports</a></li>
+                <li><a href="index.html#Technology">Technology</a></li>
+                <li><a href="index.html#Entertainment">Entertainment</a></li>
+                <li><a href="index.html#Health">Health</a></li>
+                <li><a href="index.html#Business">Business</a></li>
+            </ul>
+            <div class="mobile-buttons">
+                <a href="#" class="nav-btn login-btn">
+                    <i class="fas fa-user"></i>
+                    <span>Login</span>
+                </a>
+                <a href="#" class="nav-btn register-btn">
+                    <i class="fas fa-user-plus"></i>
+                    <span>Register</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Category -->
+    <div class="category">
+        <ul class="category-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#National">National</a></li>
+            <li><a href="index.html#International">International</a></li>
+            <li><a href="index.html#Sports">Sports</a></li>
+            <li><a href="index.html#Technology">Technology</a></li>
+            <li><a href="index.html#Entertainment">Entertainment</a></li>
+            <li><a href="index.html#Health">Health</a></li>
+            <li><a href="index.html#Business">Business</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content for Details -->
+    <section class="main-content" style="padding: 40px 0; min-height: 60vh;">
+        <div class="content" id="details-content"
+            style="display: block; max-width: 900px; margin: 0 auto; background: #fff; padding: 0;">
+            <!-- Content will be injected here via JS -->
+            <div class="loading">Loading article details...</div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <a href="/" class="footer-logo">
+                    <img src="Assets/Images/logo.png" alt="The First Light">
+                </a>
+                <p class="footer-desc">The First Light Newspaper brings you the latest and most reliable news from
+                    around the world. We are committed to journalism that matters.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">Advertise with Us</a></li>
+                    <li><a href="#">Work for Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Categories</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html#National">National</a></li>
+                    <li><a href="index.html#International">International</a></li>
+                    <li><a href="index.html#Sports">Sports</a></li>
+                    <li><a href="index.html#Technology">Technology</a></li>
+                    <li><a href="index.html#Entertainment">Entertainment</a></li>
+                    <li><a href="index.html#Health">Health</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p class="newsletter-text">Subscribe to our newsletter to get the latest news delivered to your inbox.
+                </p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+                <div class="app-download">
+                    <p>Download our App</p>
+                    <div class="store-buttons">
+                        <a href="#"><i class="fab fa-apple"></i> App Store</a>
+                        <a href="#"><i class="fab fa-google-play"></i> Google Play</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 The First Light Newspaper. All rights reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="#">Sitemap</a>
+                <a href="#">Archives</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="App.js"></script>
+    <script>
+        // Check if we are on details page and load content
+        document.addEventListener('DOMContentLoaded', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const newsId = urlParams.get('id');
+            const detailsContainer = document.getElementById('details-content');
+
+            if (newsId && detailsContainer) {
+                const sources = [
+                    'Assets/home.json',
+                    'Assets/sports.json',
+                    'Assets/technology.json',
+                    'Assets/international.json',
+                    'Assets/business.json',
+                    'Assets/entertainment.json',
+                    'Assets/health.json',
+                    'Assets/latest.json',
+                    'Assets/national.json',
+                    'Assets/videos.json'
+                ];
+
+                let found = false;
+
+                const fetchArticle = async () => {
+                    for (const source of sources) {
+                        try {
+                            const response = await fetch(source);
+                            const data = await response.json();
+                            const article = data.find(item => item.id == newsId || item.id == newsId); // Flexible check
+
+                            if (article) {
+                                found = true;
+                                // Use standard image if array or string
+                                const imgSrc = Array.isArray(article.images) && article.images.length > 0 ? article.images[0] : (article.image || 'https://via.placeholder.com/800x400');
+
+                                // Find related news (same category, not current item)
+                                const relatedNews = data.filter(item => item.id !== article.id).slice(0, 3);
+                                let relatedHtml = '';
+                                if (relatedNews.length > 0) {
+                                    relatedHtml = `
+                                        <div class="related-news" style="margin-top: 50px; border-top: 1px solid #eee; padding-top: 30px;">
+                                            <h3 style="font-size: 1.5rem; margin-bottom: 20px; color: #333;">Related News</h3>
+                                            <div class="related-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+                                                ${relatedNews.map(item => {
+                                        const rImg = Array.isArray(item.images) && item.images.length > 0 ? item.images[0] : (item.image || 'https://via.placeholder.com/300x200');
+                                        return `
+                                                        <div class="related-card">
+                                                            <a href="details.html?id=${item.id}" style="text-decoration: none; color: inherit;">
+                                                                <img src="${rImg}" style="width: 100%; height: 180px; object-fit: cover; border-radius: 6px; margin-bottom: 10px;">
+                                                                <h4 style="font-size: 1.1rem; margin-bottom: 5px; line-height: 1.4;">${item.title}</h4>
+                                                                <span style="font-size: 0.85rem; color: #888;">${new Date(item.pubdate).toLocaleDateString()}</span>
+                                                            </a>
+                                                        </div>
+                                                    `;
+                                    }).join('')}
+                                            </div>
+                                        </div>
+                                    `;
+                                }
+
+                                // Prepare additional images if available
+                                let galleryHtml = '';
+                                if (Array.isArray(article.images) && article.images.length > 1) {
+                                    galleryHtml = `
+                                        <div class="image-gallery" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px; margin-top: 30px; margin-bottom: 30px;">
+                                            ${article.images.slice(1).map(img => `
+                                                <img src="${img}" style="width: 100%; height: 250px; object-fit: cover; border-radius: 8px;">
+                                            `).join('')}
+                                        </div>
+                                    `;
+                                }
+
+                                detailsContainer.innerHTML = `
+                                   <article class="news-details">
+                                       <h1 style="font-size: 2.5rem; margin-bottom: 15px;">${article.title}</h1>
+                                       <div class="meta" style="color: #666; margin-bottom: 20px; font-style: italic;">
+                                           <span>${new Date(article.pubdate).toDateString()}</span> | 
+                                           <span>${article.category || 'News'}</span>
+                                       </div>
+                                       <img src="${imgSrc}" style="width: 100%; max-height: 500px; object-fit: cover; border-radius: 8px; margin-bottom: 30px;">
+                                       
+                                       <div class="content-body" style="font-size: 1.1rem; line-height: 1.8; color: #333;">
+                                           <p>${article.description}</p>
+                                           ${galleryHtml}
+                                           <p>${article.description} ${article.description}</p>
+                                       </div>
+                                   </article>
+                                   ${relatedHtml}
+                               `;
+                                break;
+                            }
+                        } catch (e) {
+                            console.log(`Not found in ${source}`);
+                        }
+                    }
+                    if (!found) {
+                        detailsContainer.innerHTML = '<div class="error" style="text-align:center; padding:50px;"><h2>Article not found</h2><a href="/" style="color:#c00; text-decoration:none;">Go Back Home</a></div>';
+                    }
+                };
+
+                fetchArticle();
+            }
+        });
+    </script>
 </body>
+
 </html>

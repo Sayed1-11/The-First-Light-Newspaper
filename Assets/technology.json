@@ -15,7 +15,6 @@
         ],
         "language": "en",
         "images": [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Integrated_circuit.jpg/800px-Integrated_circuit.jpg",
             "https://images.unsplash.com/photo-1581094794329-c8112a89af12",
             "https://images.unsplash.com/photo-1581094794329-c8112a89af12",
             "https://images.unsplash.com/photo-1518709268805-4e9042af2176"
@@ -35,11 +34,10 @@
             "digital India",
             "telecom infrastructure"
         ],
-        "language": "hi",
+        "language": "en",
         "images": [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/5G_Logo.svg/800px-5G_Logo.svg.png",
-            "https://images.unsplash.com/photo-1546054451-aa724b68d41c",
-            "https://images.unsplash.com/photo-1546054451-aa724b68d41c",
+            "https://telecomtalk.info/wp-content/uploads/2025/05/indias-5g-rollout-has-been-impressive-especially.jpg",
+            "https://trak.in/stories/wp-content/uploads/2025/12/Screenshot-2025-12-21-at-1.06.12-PM-1024x508.png",
             "https://images.unsplash.com/photo-1546054451-aa724b68d41c"
         ]
     },
@@ -59,8 +57,6 @@
         ],
         "language": "en",
         "images": [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/ISRO_Logo.svg/800px-ISRO_Logo.svg.png",
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Satish_Dhawan_Space_Centre_Second_Launch_Pad.jpg/800px-Satish_Dhawan_Space_Centre_Second_Launch_Pad.jpg",
             "https://images.unsplash.com/photo-1446776653964-20c1d3a81b06",
             "https://images.unsplash.com/photo-1462331940025-496dfbfc7564"
         ]
@@ -81,7 +77,6 @@
         ],
         "language": "hi",
         "images": [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/800px-ChatGPT_logo.svg.png",
             "https://images.unsplash.com/photo-1677442136019-21780ecad995",
             "https://images.unsplash.com/photo-1677442136019-21780ecad995",
             "https://images.unsplash.com/photo-1677442136019-21780ecad995"
@@ -103,7 +98,6 @@
         ],
         "language": "en",
         "images": [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Quantum_computer.svg/800px-Quantum_computer.svg.png",
             "https://images.unsplash.com/photo-1635070041078-e363dbe005cb",
             "https://images.unsplash.com/photo-1635070041078-e363dbe005cb",
             "https://images.unsplash.com/photo-1635070041078-e363dbe005cb"
@@ -125,7 +119,6 @@
         ],
         "language": "hi",
         "images": [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Reserve_Bank_of_India_Logo.svg/800px-Reserve_Bank_of_India_Logo.svg.png",
             "https://images.unsplash.com/photo-1616401784845-180882ba9ba8",
             "https://images.unsplash.com/photo-1616401784845-180882ba9ba8",
             "https://images.unsplash.com/photo-1616401784845-180882ba9ba8"
@@ -147,7 +140,7 @@
         ],
         "language": "en",
         "images": [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Data_Center_Telehouse_Paris.jpg/800px-Data_Center_Telehouse_Paris.jpg",
+            "https://images.unsplash.com/photo-1620712943543-bcc4688e7485",
             "https://images.unsplash.com/photo-1620712943543-bcc4688e7485",
             "https://images.unsplash.com/photo-1620712943543-bcc4688e7485",
             "https://images.unsplash.com/photo-1620712943543-bcc4688e7485"
@@ -169,7 +162,7 @@
         ],
         "language": "hi",
         "images": [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Robotic_arm_at_an_exhibition.jpg/800px-Robotic_arm_at_an_exhibition.jpg",
+            "https://images.unsplash.com/photo-1485827404703-89b55fcc595e",
             "https://images.unsplash.com/photo-1485827404703-89b55fcc595e",
             "https://images.unsplash.com/photo-1485827404703-89b55fcc595e",
             "https://images.unsplash.com/photo-1485827404703-89b55fcc595e"
@@ -191,7 +184,7 @@
         ],
         "language": "en",
         "images": [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Tata_Motors.svg/800px-Tata_Motors.svg.png",
+            "https://images.unsplash.com/photo-1549399542-7e3f8b79c341",
             "https://images.unsplash.com/photo-1549399542-7e3f8b79c341",
             "https://images.unsplash.com/photo-1549399542-7e3f8b79c341",
             "https://images.unsplash.com/photo-1549399542-7e3f8b79c341"
@@ -213,7 +206,7 @@
         ],
         "language": "hi",
         "images": [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Cyber_security.jpg/800px-Cyber_security.jpg",
+            "https://images.unsplash.com/photo-1550751827-4bd374c3f58b",
             "https://images.unsplash.com/photo-1550751827-4bd374c3f58b",
             "https://images.unsplash.com/photo-1550751827-4bd374c3f58b",
             "https://images.unsplash.com/photo-1550751827-4bd374c3f58b"

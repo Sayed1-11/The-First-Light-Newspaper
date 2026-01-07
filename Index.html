@@ -91,21 +91,208 @@
         </div>
     </section>
 
-    <section class="video-content">
+    <section class="video-content" id="Videos">
+        <div class="title">
+
+            <h2>Videos <i class="fa-solid fa-circle-chevron-right" style="color: #c00;"></i></h2>
+        </div>
         <div class="carousel-container">
             <button class="carousel-btn prev-btn">‹</button>
-            
-            <!-- This ID must match: "videos-carresol" -->
             <div class="videos-carousel" id="videos-carresol">
-                <!-- Videos will be inserted here by JavaScript -->
             </div>
-            
             <button class="carousel-btn next-btn">›</button>
-            
-            <!-- Make sure this element exists too -->
             <div class="carousel-indicators" id="carousel-indicators"></div>
         </div>
     </section>
+
+
+    <section class="national" id="National">
+        <div class="title">
+            <h2>National <i class="fa-solid fa-flag" style="color: #c00;"></i></h2>
+        </div>
+        <div class="national-container">
+
+        </div>
+    </section>
+
+
+    <section class="international" id="International">
+        <div class="title">
+            <h2>International <i class="fa-solid fa-globe" style="color: #c00;"></i></h2>
+        </div>
+        <div class="international-container">
+
+        </div>
+    </section>
+
+    <section class="Sports" id="Sports">
+        <div class="title">
+            <h2>Sports <i class="fa-solid fa-football" style="color: #c00;"></i></h2>
+        </div>
+        <div class="sports-container">
+            <div class="sports-left">
+
+            </div>
+            <div class="sports-middle">
+
+            </div>
+            <div class="sports-right">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="Technology" id="Technology">
+        <div class="title">
+            <h2>Technology <i class="fa-solid fa-laptop" style="color: #c00;"></i></h2>
+        </div>
+        <div class="technology-container">
+            <div class="technology-left">
+
+            </div>
+
+            <div class="technology-right">
+
+            </div>
+            <div class="technology-middle">
+
+            </div>
+
+            </div>
+    </section>
+
+
+    <section class="Entertainment" id="Entertainment">
+        <div class="title">
+            <h2>Entertainment <i class="fa-solid fa-music" style="color: #c00;"></i></h2>
+        </div>
+        <div class="entertainment-container">
+            <div class="entertainment-left">
+
+            </div>
+
+            <div class="entertainment-right">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="Health" id="Health">
+        <div class="title">
+            <h2>Health <i class="fa-solid fa-heart-pulse" style="color: #c00;"></i></h2>
+        </div>
+        <div class="health-container">
+            <div class="health-left">
+
+            </div>
+
+            <div class="health-right">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="business" id="business">
+        <div class="title">
+            <h2>Business <i class="fa-solid fa-briefcase" style="color: #c00;"></i></h2>
+        </div>
+        <div class="business-container">
+            <div class="business-left">
+                <div class="tabs-container">
+                    <div class="tabs-header">
+                        <button class="tab-btn active" onclick="openTab(event, 'bus-latest')">Latest</button>
+                        <button class="tab-btn" onclick="openTab(event, 'bus-market')">Market</button>
+                    </div>
+                    <div class="tabs-content">
+                        <div id="bus-latest" class="tab-content active">
+                            <!-- JS will populate this -->
+                            <div class="loading">Loading...</div>
+                        </div>
+                        <div id="bus-market" class="tab-content">
+                            <!-- JS will populate this -->
+                            <div class="loading">Loading...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="business-middle">
+
+            </div>
+            <div class="business-right">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <a href="/" class="footer-logo">
+                    <img src="Assets/Images/logo.png" alt="The First Light">
+                </a>
+                <p class="footer-desc">The First Light Newspaper brings you the latest and most reliable news from
+                    around the world. We are committed to journalism that matters.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">Advertise with Us</a></li>
+                    <li><a href="#">Work for Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Categories</h3>
+                <ul class="footer-links">
+                    <li><a href="#National">National</a></li>
+                    <li><a href="#International">International</a></li>
+                    <li><a href="#Sports">Sports</a></li>
+                    <li><a href="#Technology">Technology</a></li>
+                    <li><a href="#Entertainment">Entertainment</a></li>
+                    <li><a href="#Health">Health</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p class="newsletter-text">Subscribe to our newsletter to get the latest news delivered to your inbox.
+                </p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+                <div class="app-download">
+                    <p>Download our App</p>
+                    <div class="store-buttons">
+                        <a href="#"><i class="fab fa-apple"></i> App Store</a>
+                        <a href="#"><i class="fab fa-google-play"></i> Google Play</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 The First Light Newspaper. All rights reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="#">Sitemap</a>
+                <a href="#">Archives</a>
+            </div>
+        </div>
+    </footer>
+
     <script src="App.js"></script>
 </body>
 
