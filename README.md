@@ -80,3 +80,6 @@ For the Video section, I built a custom **JavaScript-based Carousel**. It calcul
 - **JavaScript (ES6+)**: Async fetching, UI logic, and Search indexing.
 - **JSON**: Local data storage and simulation.
 - **Font Awesome**: iconography.
+
+## website Link
+Link - [https://the-first-light-newspaper.onrender.com/]
