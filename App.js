@@ -115,14 +115,14 @@ fetch("Assets/sports.json")
       `
 <div class='middle-side-by-side'>
     ${news
-      .slice(1, 3)
-      .map((item) => {
-        const imgSrc =
-          item.images && item.images.length > 0
-            ? item.images[0]
-            : "https://via.placeholder.com/150x100?text=No+Image";
+        .slice(1, 3)
+        .map((item) => {
+          const imgSrc =
+            item.images && item.images.length > 0
+              ? item.images[0]
+              : "https://via.placeholder.com/150x100?text=No+Image";
 
-        return `
+          return `
         <div class='news-item-middle-small'>
             <a class='news-link' href="details.html?id=${item.id}">
 
@@ -134,21 +134,21 @@ fetch("Assets/sports.json")
                 <p>${timeAgo(item.pubdate)}</p>
             </a>
         </div>`;
-      })
-      .join("")}
+        })
+        .join("")}
 </div>
 ` +
       `
 <div class='middle-side-by-side'>
     ${news
-      .slice(3, 6)
-      .map((item) => {
-        const imgSrc =
-          item.images && item.images.length > 0
-            ? item.images[0]
-            : "https://via.placeholder.com/150x100?text=No+Image";
+        .slice(3, 6)
+        .map((item) => {
+          const imgSrc =
+            item.images && item.images.length > 0
+              ? item.images[0]
+              : "https://via.placeholder.com/150x100?text=No+Image";
 
-        return `
+          return `
         <div class='news-item-middle-grid'>
             <a class='news-link' href="details.html?id=${item.id}">
 
@@ -160,8 +160,8 @@ fetch("Assets/sports.json")
                 <p>${timeAgo(item.pubdate)}</p>
             </a>
         </div>`;
-      })
-      .join("")}
+        })
+        .join("")}
 </div>
 `;
   });
@@ -214,8 +214,8 @@ fetch("Assets/sports.json")
                         <h3>${item.title}</h3>
                         <p>${truncateText(item.description, 20)}</p>
                         <span class="sports-meta">${timeAgo(
-                          item.pubdate
-                        )}</span>
+        item.pubdate
+      )}</span>
                     </a>
                 </div>
             `;
@@ -234,8 +234,8 @@ fetch("Assets/sports.json")
                         <h3>${item.title}</h3>
                         <p>${truncateText(item.description, 20)}</p>
                         <span class="sports-meta">${timeAgo(
-                          item.pubdate
-                        )}</span>
+        item.pubdate
+      )}</span>
                     </a>
                 </div>
             `;
@@ -251,15 +251,14 @@ fetch("Assets/sports.json")
               : "https://via.placeholder.com/100x75";
           return `
                 <div class="sports-card-small">
-                    <a href="details.html?id=${
-                      item.id
-                    }" class="news-link" style="display:flex; gap:15px; align-items:center;">
+                    <a href="details.html?id=${item.id
+            }" class="news-link" style="display:flex; gap:15px; align-items:center;">
                         <img src="${imgSrc}" alt="${item.title}">
                         <div>
                             <h4>${item.title}</h4>
                             <span class="sports-meta">${timeAgo(
-                              item.pubdate
-                            )}</span>
+              item.pubdate
+            )}</span>
                         </div>
                     </a>
                 </div>
@@ -289,8 +288,8 @@ fetch("Assets/technology.json")
                         <h3>${item.title}</h3>
                         <p>${truncateText(item.description, 20)}</p>
                         <span class="sports-meta">${timeAgo(
-                          item.pubdate
-                        )}</span>
+        item.pubdate
+      )}</span>
                     </a>
                 </div>
             `;
@@ -311,8 +310,8 @@ fetch("Assets/technology.json")
                         </div>
                         <p>${truncateText(item.description, 15)}</p>
                         <span class="sports-meta">${timeAgo(
-                          item.pubdate
-                        )}</span>
+        item.pubdate
+      )}</span>
                     </a>
                 </div>
             `;
@@ -333,8 +332,8 @@ fetch("Assets/technology.json")
                         <div>
                             <h4>${item.title}</h4>
                             <span class="sports-meta">${timeAgo(
-                              item.pubdate
-                            )}</span>
+            item.pubdate
+          )}</span>
                         </div>
                     </a>
                 </div>
@@ -365,8 +364,8 @@ fetch("Assets/entertainment.json")
                         <h3>${item.title}</h3>
                         <p>${truncateText(item.description, 20)}</p>
                         <span class="sports-meta">${timeAgo(
-                          item.pubdate
-                        )}</span>
+        item.pubdate
+      )}</span>
                     </a>
                 </div>
             `;
@@ -375,27 +374,27 @@ fetch("Assets/entertainment.json")
     if (rightCol && data.length > 2) {
       rightCol.innerHTML = `
     ${data
-      .slice(3, 6)
-      .map((item) => {
-        const imgSrc =
-          item.images && item.images.length > 0
-            ? item.images[0]
-            : "https://via.placeholder.com/150x100?text=No+Image";
+          .slice(3, 6)
+          .map((item) => {
+            const imgSrc =
+              item.images && item.images.length > 0
+                ? item.images[0]
+                : "https://via.placeholder.com/150x100?text=No+Image";
 
-        return `
+            return `
         <div class='technology-card-small'>
             <a class='news-link' href="details.html?id=${item.id}">
             <img src="${imgSrc}" alt="${item.title}">
            <div>
                             <h4>${item.title}</h4>
                             <span class="sports-meta">${timeAgo(
-                              item.pubdate
-                            )}</span>
+              item.pubdate
+            )}</span>
                         </div>
             </a>
         </div>`;
-      })
-      .join("")}
+          })
+          .join("")}
 `;
     }
   })
@@ -423,8 +422,8 @@ fetch("Assets/health.json")
                         <h3>${item.title}</h3>
                         <p>${truncateText(item.description, 20)}</p>
                         <span class="sports-meta">${timeAgo(
-                          item.pubdate
-                        )}</span>
+        item.pubdate
+      )}</span>
                     </a>
                 </div>
             `;
@@ -434,14 +433,14 @@ fetch("Assets/health.json")
       rightCol.innerHTML = `
 <div class='health-card-small'>
     ${data
-      .slice(1, 5)
-      .map((item) => {
-        const imgSrc =
-          item.images && item.images.length > 0
-            ? item.images[0]
-            : "https://via.placeholder.com/150x100?text=No+Image";
+          .slice(1, 5)
+          .map((item) => {
+            const imgSrc =
+              item.images && item.images.length > 0
+                ? item.images[0]
+                : "https://via.placeholder.com/150x100?text=No+Image";
 
-        return `
+            return `
                 <div class='health-card'>
                 <a class='news-link' href="details.html?id=${item.id}">
         <div class='health-title'>
@@ -454,8 +453,8 @@ fetch("Assets/health.json")
             <p>${timeAgo(item.pubdate)}</p>
             </a>
         </div>`;
-      })
-      .join("")}
+          })
+          .join("")}
 </div>
 `;
     }
@@ -750,16 +749,14 @@ fetch("Assets/business.json")
         .map(
           (item) => `
                 <div class="news-item" style="display:flex; gap:10px; margin-bottom:15px; border-bottom:1px solid #eee; padding-bottom:10px;">
-                     <img src="${
-                       item.images[0]
-                     }" style="width:80px; height:60px; object-fit:cover; border-radius:4px;">
+                     <img src="${item.images[0]
+            }" style="width:80px; height:60px; object-fit:cover; border-radius:4px;">
                      <div>
-                         <h4 style="font-size:0.9rem; margin-bottom:5px;">${
-                           item.title
-                         }</h4>
+                         <h4 style="font-size:0.9rem; margin-bottom:5px;">${item.title
+            }</h4>
                          <span style="font-size:0.75rem; color:#888;">${timeAgo(
-                           item.pubdate
-                         )}</span>
+              item.pubdate
+            )}</span>
                      </div>
                 </div>
             `
@@ -781,12 +778,11 @@ fetch("Assets/latest.json")
           (item) => `
                 <div class="news-item" style="margin-bottom:15px; border-bottom:1px solid #eee; padding-bottom:10px;">
                     <a href="details.html?id=${item.id}" class="news-link">
-                        <h4 style="font-size:1rem; font-weight:600; margin-bottom:5px;">${
-                          item.title
-                        }</h4>
+                        <h4 style="font-size:1rem; font-weight:600; margin-bottom:5px;">${item.title
+            }</h4>
                         <span class="video-date" style="font-size:0.8rem; color:#888;">${timeAgo(
-                          item.pubdate
-                        )}</span>
+              item.pubdate
+            )}</span>
                     </a>
                 </div>
             `
@@ -813,12 +809,11 @@ fetch("Assets/national.json")
           (item) => `
                 <div class="news-item" style="margin-bottom:15px; border-bottom:1px solid #eee; padding-bottom:10px;">
                      <a href="details.html?id=${item.id}" class="news-link">
-                        <h4 style="font-size:1rem; font-weight:600; margin-bottom:5px;">${
-                          item.title
-                        }</h4>
+                        <h4 style="font-size:1rem; font-weight:600; margin-bottom:5px;">${item.title
+            }</h4>
                          <span class="video-date" style="font-size:0.8rem; color:#888;">${timeAgo(
-                           item.pubdate
-                         )}</span>
+              item.pubdate
+            )}</span>
                      </a>
                 </div>
             `
@@ -900,3 +895,119 @@ window.loadVideos = loadVideos;
 window.nextSlide = nextSlide;
 window.prevSlide = prevSlide;
 window.goToSlide = goToSlide;
+
+// --- Global Search Functionality ---
+let globalNewsData = [];
+const searchFiles = [
+  { file: 'home.json', category: 'Home' },
+  { file: 'national.json', category: 'National' },
+  { file: 'international.json', category: 'International' },
+  { file: 'sports.json', category: 'Sports' },
+  { file: 'technology.json', category: 'Technology' },
+  { file: 'business.json', category: 'Business' },
+  { file: 'entertainment.json', category: 'Entertainment' },
+  { file: 'health.json', category: 'Health' },
+  { file: 'latest.json', category: 'Latest' }
+];
+
+async function loadAllNewsForSearch() {
+  try {
+    const promises = searchFiles.map(async (searchInfo) => {
+      try {
+        const response = await fetch(`Assets/${searchInfo.file}`);
+        if (!response.ok) return [];
+        const data = await response.json();
+        return data.map(item => ({ ...item, category: searchInfo.category }));
+      } catch (err) {
+        console.warn(`Could not load ${searchInfo.file} for search indexing`);
+        return [];
+      }
+    });
+
+    const allDataResults = await Promise.all(promises);
+    globalNewsData = allDataResults.flat();
+    console.log("Search indexed:", globalNewsData.length, "items");
+  } catch (error) {
+    console.error("Error indexing news for search:", error);
+  }
+}
+
+// Initialize search index
+loadAllNewsForSearch();
+
+const searchInputInput = document.getElementById('searchInput');
+const searchResultsContainer = document.getElementById('searchResults');
+
+if (searchInputInput) {
+  searchInputInput.addEventListener('input', (e) => {
+    const query = e.target.value.toLowerCase().trim();
+
+    if (query.length < 2) {
+      searchResultsContainer.classList.remove('active');
+      searchResultsContainer.innerHTML = '';
+      return;
+    }
+
+    const filteredNews = globalNewsData.filter(item => {
+      const title = (item.title || "").toLowerCase();
+      const description = (item.description || "").toLowerCase();
+      const keywords = Array.isArray(item.keywords) ? item.keywords.map(k => String(k).toLowerCase()) : [];
+
+      return title.includes(query) ||
+        description.includes(query) ||
+        keywords.some(k => k.includes(query));
+    });
+
+    displaySearchResults(filteredNews);
+  });
+
+  // Close search results when clicking outside
+  document.addEventListener('click', (e) => {
+    if (!e.target.closest('.search-box')) {
+      searchResultsContainer.classList.remove('active');
+    }
+  });
+
+  // Re-open if clicking back in and has query
+  searchInputInput.addEventListener('click', () => {
+    if (searchInputInput.value.trim().length >= 2) {
+      searchResultsContainer.classList.add('active');
+    }
+  });
+
+  // Focus input when search button is clicked
+  const searchBtn = document.getElementById('searchBtn');
+  if (searchBtn) {
+    searchBtn.addEventListener('click', () => {
+      searchInputInput.focus();
+    });
+  }
+}
+
+function displaySearchResults(results) {
+  if (!searchResultsContainer) return;
+
+  searchResultsContainer.innerHTML = '';
+  searchResultsContainer.classList.add('active');
+
+  if (results.length === 0) {
+    searchResultsContainer.innerHTML = '<div class="no-results">No matches found for "' + searchInputInput.value + '"</div>';
+    return;
+  }
+
+  // Limit to 8 results for better performance and UI
+  results.slice(0, 8).forEach(item => {
+    const imgSrc = item.images && item.images.length > 0 ? item.images[0] : 'https://via.placeholder.com/70x50';
+    const resultItem = document.createElement('a');
+    resultItem.href = `details.html?id=${item.id}`;
+    resultItem.className = 'search-result-item';
+    resultItem.innerHTML = `
+            <img src="${imgSrc}" alt="${item.title}">
+            <div class="search-result-info">
+                <span class="category-label">${item.category}</span>
+                <h4>${item.title}</h4>
+            </div>
+        `;
+    searchResultsContainer.appendChild(resultItem);
+  });
+}
